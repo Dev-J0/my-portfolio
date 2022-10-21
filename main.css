@@ -169,8 +169,8 @@ link:visited {
 }
 
 .s4 img {
-  height: 19rem;
-  width: 30rem;
+  height: 10rem;
+  width: 20rem;
   border: 5px ridge rgb(136, 131, 131);
   filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.568));
 
@@ -525,6 +525,7 @@ z-index: 2;
   color: black;
   padding-bottom: 30px;
   flex-wrap:wrap-reverse;
+  max-height: 100vh;
 }
  
 @media screen and (max-width: 600px){
