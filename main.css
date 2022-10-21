@@ -169,7 +169,7 @@ link:visited {
 }
 
 .s4 img {
-  height: 10rem;
+  height: 12rem;
   width: 20rem;
   border: 5px ridge rgb(136, 131, 131);
   filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.568));
@@ -474,10 +474,9 @@ a:-webkit-any-link {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding: 100px 300px 100px 300px;
+  padding: 100px 200px 100px 300px;
   margin-top: 200px;
   font-size: 25px;
-
 }
 
 .containerS2left {
@@ -497,8 +496,6 @@ padding-right: 100px;
 width: 50%;
 font-size: 29px;
 margin-bottom: 100px;
-
-
 }
 
 
