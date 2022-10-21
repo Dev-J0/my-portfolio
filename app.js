@@ -11,7 +11,7 @@ let qty = 1,
   main = null,
   next = null;
 
-// Add child elements in .section-stick as number of sections exist
+// Add child elements in section-stick as number of sections exist
 Array(sectionsQty)
   .fill()
   .forEach(() => {
