@@ -70,7 +70,6 @@ body::-webkit-scrollbar {
 .layout .section-stick .active {
   width: 13px;
   height: 62px;
-
   border: none;
   border-radius: 9px;
 }
@@ -399,8 +398,8 @@ h2{
   font-family: 'Quicksand', sans-serif;
 }
 .cityMap {
-  max-width: 850px;
-  height: 700px;
+  max-width: 650px;
+  height: 500px;
   position: absolute;
   right: 4%;
   bottom: 20%;
@@ -460,7 +459,7 @@ a:-webkit-any-link {
   position: absolute;
   bottom: 20%;
   left: 15%;
-  padding: 170px 50px 80px 50px;
+  padding: 130px 30px 50px 30px;
   background: rgba(186, 179, 179, 0.473);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
