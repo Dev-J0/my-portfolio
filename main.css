@@ -52,7 +52,6 @@ body::-webkit-scrollbar {
 
 .layout .section-stick {
   margin: auto;
-
   position: fixed;
   right: 50px;
   bottom: 50px;
@@ -68,10 +67,9 @@ body::-webkit-scrollbar {
 
 .layout .section-stick .stick,
 .layout .section-stick .active {
-  width: 13px;
-  height: 62px;
-
-  border: none;
+  width: 9px;
+  height: 45px;
+  border: 2px solid red;
   border-radius: 9px;
 }
 
