@@ -52,33 +52,39 @@ body::-webkit-scrollbar {
 
 .layout .section-stick {
   margin: auto;
+
   position: fixed;
   right: 50px;
   bottom: 50px;
+
   display: flex;
   flex-direction: column;
   row-gap: 30px;
   align-items: center;
   justify-content: flex-start;
+
   z-index: 1000;
 }
 
 .layout .section-stick .stick,
 .layout .section-stick .active {
-  width: 9px;
-  height: 45px;
+  width: 13px;
+  height: 62px;
+
   border: none;
   border-radius: 9px;
 }
 
 .layout .section-stick .stick {
   position: relative;
+
   background-color: rgba(255, 255, 255, 0.4);
   transition: all var(--time-animation) ease-in-out;
 }
 
 .layout .section-stick .active {
   position: absolute;
+
   background-color: var(--color-white);
   box-shadow: 0px 0px 12px 1px var(--color-white);
   backdrop-filter: blur(3px);
@@ -487,10 +493,10 @@ padding-right: 100px;
 }
 
 .containerS2right {
-max-width: 400px;
+width: 30%;
 font-size: 20px;
 margin-bottom: 50px;
-height: 250px;
+height: 200px;
 }
 
 
