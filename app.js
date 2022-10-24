@@ -70,4 +70,10 @@ window.onscroll = () => {
   window.scroll(0, window.screen.height);
 };
 
-// map api
+
+
+const btn = document.getElementById('scrollToTopButton');
+btn.addEventListener('click', () => window.scrollTo({
+  top: 400,
+  behavior: 'smooth',
+}));
