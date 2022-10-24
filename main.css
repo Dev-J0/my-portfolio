@@ -474,9 +474,9 @@ a:-webkit-any-link {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding: 100px 200px 100px 300px;
-  margin-top: 200px;
-  font-size: 25px;
+  padding: 70px 170px 70px 250px;
+  margin-top: 50px;
+  font-size: 20px;
 }
 
 .containerS2left {
