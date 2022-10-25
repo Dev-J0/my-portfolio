@@ -471,8 +471,8 @@ a:-webkit-any-link {
   backdrop-filter: blur(11.5px);
   -webkit-backdrop-filter: blur(11.5px);
   border: 1px solid rgba(186, 179, 179, 0.74);
-  height: 400px;
-  width: 400px;
+  height: 550px;
+  width: 385px;
 
 
 }
