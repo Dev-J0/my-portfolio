@@ -497,7 +497,7 @@ a:-webkit-any-link {
 
 .containerS2left {
 width: 50%;
-padding-right: 100px;
+
 }
 
 .containerS2left img {
@@ -517,7 +517,7 @@ padding: 20px;
 display: flex;
 justify-content: left;
 position: absolute;
-right: 20%;
+right: 15%;
 
 
 }
