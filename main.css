@@ -387,15 +387,22 @@ h2{
       width: 50%;
   }
 }
-#wordpress,
 #bootstrap {
-  animation: wordpress 2s forwards;
+  animation: bootstrap 2s forwards;
 }
-@keyframes wordpress{
+@keyframes bootstrap{
   100%{
       width: 40%;
   }
 } 
+#wordpress{
+  animation: wordpress 2s forwards;
+}
+@keyframes wordpress {
+  100%{
+    width: 80%;
+  }
+}
 
 #appointment {
   font-family: 'Quicksand', sans-serif;
