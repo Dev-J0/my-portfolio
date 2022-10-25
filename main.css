@@ -313,13 +313,15 @@ link:visited {
 .container{
   width: 100%;
   padding: 30px 20px 30px;
-  margin-top: 200px;
   background-color: rgba(197, 170, 170, 0.404);
   border: 2px solid rgba(255,255,255,0.06);
   border-radius: 10px;
   box-shadow: 0 20px 30px rgba(0,0,0,0.2);
   backdrop-filter: blur(10px);
-  height: 400px;
+  height: 550px;
+  position: absolute;
+  top: 30%;
+  font-size: 20px;
   
 } 
 .container *{
