@@ -145,6 +145,7 @@ link:visited {
   background:linear-gradient(#183A37, #A2666F);
   z-index: 3;
   max-height: 100vh;
+  max-width: 100%;
 }
 
 .layout .s3 {
@@ -478,11 +479,13 @@ a:-webkit-any-link {
 
 .containerSection2 {
   display: flex;
-  width: 100%;
+  width:80%;
   justify-content: center;
   padding: 10px 170px 70px 250px;
   margin-top: 30px;
   font-size: 20px;
+  flex-direction: column;
+  flex-shrink: 2;
 }
 
 .containerS2left {
@@ -499,10 +502,17 @@ padding-right: 100px;
 }
 
 .containerS2right {
-width: 30%;
+width: 40%;
 font-size: 20px;
 margin-bottom: 50px;
-height: 200px;
+height: 300px;
+padding: 20px;
+display: flex;
+justify-content: left;
+position: absolute;
+right: 20%;
+
+
 }
 
 
