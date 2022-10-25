@@ -473,8 +473,8 @@ a:-webkit-any-link {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding: 70px 170px 70px 250px;
-  margin-top: 50px;
+  padding: 10px 170px 70px 250px;
+  margin-top: 30px;
   font-size: 20px;
 }
 
