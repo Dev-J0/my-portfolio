@@ -471,7 +471,7 @@ a:-webkit-any-link {
   position: absolute;
   bottom: 5%;
   left: 15%;
-  padding: 50px 30px 40px 30px;
+  padding:20px;
   background: rgba(186, 179, 179, 0.473);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
