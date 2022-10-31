@@ -152,6 +152,7 @@ link:visited {
   background: linear-gradient(#A2666F,#C4A77D) ;
   z-index: 2;
   max-height: 100vh;
+  
 }
 
 .layout .s4 {
@@ -309,6 +310,7 @@ link:visited {
   transform: translate(-50%,-50%);
   left: 50%;
   top: 10%;
+
   
 }
 .container{
@@ -323,6 +325,7 @@ link:visited {
   position: absolute;
   top: 30%;
   font-size: 20px;
+
   
 } 
 .container *{
@@ -345,6 +348,17 @@ h2{
   display: flex;  
   justify-content: space-between;
   margin-bottom: 10px;
+}
+
+
+.container h2 {
+  color: white;
+  font-weight: bolder;
+}
+
+.container span {
+  color: white;
+  font-weight: bolder;
 }
 .bar{
   position: relative;
@@ -558,6 +572,7 @@ z-index: 2;
 
   }
 }
+
 
 
 .otherLetters{
