@@ -510,8 +510,7 @@ a:-webkit-any-link {
 }
 
 .containerS2left {
-width: 50%;
-
+  width: 50%;
 }
 
 .containerS2left img {
@@ -524,7 +523,7 @@ width: 50%;
 
 .containerS2right {
 width: 40%;
-font-size: 15px;
+font-size: 17px;
 margin-bottom: 50px;
 height: 300px;
 padding: 20px;
@@ -533,7 +532,8 @@ justify-content: left;
 position: absolute;
 right: 15%;
 text-align: right ;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+font-family:monospace;
+font-weight: 90;
 
 }
 
