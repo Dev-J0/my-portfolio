@@ -4,9 +4,6 @@
  
 }
 
-
-
-
 @keyframes pulse {
   0% {
     transform: translateY(0px);
@@ -52,17 +49,14 @@ body::-webkit-scrollbar {
 
 .layout .section-stick {
   margin: auto;
-
   position: fixed;
   right: 50px;
   bottom: 50px;
-
   display: flex;
   flex-direction: column;
   row-gap: 30px;
   align-items: center;
   justify-content: flex-start;
-
   z-index: 1000;
 }
 
@@ -76,14 +70,12 @@ body::-webkit-scrollbar {
 
 .layout .section-stick .stick {
   position: relative;
-
   background-color: rgba(255, 255, 255, 0.4);
   transition: all var(--time-animation) ease-in-out;
 }
 
 .layout .section-stick .active {
   position: absolute;
-
   background-color: var(--color-white);
   box-shadow: 0px 0px 12px 1px var(--color-white);
   backdrop-filter: blur(3px);
@@ -174,9 +166,6 @@ link:visited {
   width: 20rem;
   border: 5px ridge rgb(136, 131, 131);
   filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.568));
-
-
-
 }
 
 #logo {
@@ -235,41 +224,11 @@ link:visited {
   transform: scale(1.3);
   position:relative;
   height: 100%;
-  
 }
 
 .containerProjects {
   max-height:100%;
-
-
-
-
-
-
-
-
-  
-      
 }
-/*
-.sliding-text {
-  color: transparent;
-  text-align: 0 1px 1px;
-  -webkit-text-stroke: 2px #fff;
-  text-shadow: none;
-  transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  text-align: center;
-  
-}
-
-.sliding-text:hover {
-  transform: scale(1.5);
-    color: #fff;
-    -webkit-text-stroke: 2px transparent;
-    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-*/
-
 
 .intro {
   display: flex;
@@ -297,7 +256,6 @@ link:visited {
 }
 
 
-
 .s3 {
   height:50vh;
   box-sizing: border-box;
@@ -310,8 +268,6 @@ link:visited {
   transform: translate(-50%,-50%);
   left: 50%;
   top: 10%;
-
-  
 }
 .container{
   width: 100%;
@@ -324,15 +280,14 @@ link:visited {
   height: 550px;
   position: absolute;
   top: 30%;
-  font-size: 20px;
+  font-size: 20px;  
+}
 
-  
-} 
 .container *{
-
   color: black;
   font-weight: 200;
 }
+
 h2{
   margin-bottom: 50px;
   letter-spacing: 2px;
@@ -340,16 +295,17 @@ h2{
   font-size: 33px;
   font-weight: bold;
 }
+
 .skills:not(:last-child){
   margin-bottom: 20px;
 }
+
 .details{
   width: 100%;
   display: flex;  
   justify-content: space-between;
   margin-bottom: 10px;
 }
-
 
 .container h2 {
   color: white;
@@ -360,47 +316,51 @@ h2{
   color: white;
   font-weight: bolder;
 }
+
 .bar{
   position: relative;
-
   border: 2px solid #618091;
-
   border-radius: 20px;
-
 }
+
 .bar div{
   position: relative;
   width: 0;
   height: 9px;
   border-radius: 10px;
   background-color: #808588;
- 
-
 }
+
 #html-bar{
   animation: html-fill 2s forwards;
 }
+
 @keyframes html-fill{
   100%{
       width: 90%;
   }
 }
+
 #css-bar{
   animation: css-fill 2s forwards;
 }
+
 @keyframes css-fill{
   100%{
       width: 75%;
   }
 }
+
 #js-bar{
   animation: js-fill 2s forwards;
 }
+
 @keyframes js-fill {
   100%{
       width: 50%;
   }
 }
+
 #bootstrap {
   animation: bootstrap 2s forwards;
 }
@@ -409,6 +369,7 @@ h2{
       width: 40%;
   }
 } 
+
 #wordpress{
   animation: wordpress 2s forwards;
 }
@@ -431,7 +392,6 @@ h2{
   z-index: 1;
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgba(102, 90, 90, 0.404),
   0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-
 }
 
 .cityMap:hover {
@@ -443,6 +403,7 @@ h2{
 #contactMe:hover {
   text-decoration: underline;
 }
+
 .cityText {
   font-size: 25px;
   color: rgba(15, 89, 102, 0.616);
@@ -466,6 +427,7 @@ h2{
   transform: scaleY(0.9);
   background-color: #f2ecf3b2;
 }
+
 a:-webkit-any-link {
   color: black;
 }
@@ -494,8 +456,6 @@ a:-webkit-any-link {
   border: 1px solid rgba(186, 179, 179, 0.74);
   height: 550px;
   width: 385px;
-
-
 }
 
 .containerSection2 {
@@ -534,11 +494,7 @@ right: 15%;
 text-align: right ;
 font-family: 'Josefin Sans', sans-serif;
 font-weight: 90;
-
 }
-
-
-
 
 .contactRight {
 position: absolute;
@@ -546,7 +502,6 @@ bottom: 20%;
 right: 5%;
 z-index: 2;
 }
-
 
 .main{
 	display: flex;
@@ -563,17 +518,6 @@ z-index: 2;
   flex-wrap:wrap-reverse;
   max-height: 100vh;
 }
- 
-@media screen and (max-width: 600px){
-  .main {
-   margin: 0;
-  }
-  img {
-
-  }
-}
-
-
 
 .otherLetters{
 	margin: 0 15px;
@@ -581,6 +525,7 @@ z-index: 2;
 	text-shadow: 0 0 2px rgba(0, 0, 0, .45);
 	animation: span 3s ease-in infinite alternate;
 }
+
 .letter{
 	display: inline-flex;
 	height: 30px;
@@ -598,11 +543,11 @@ z-index: 2;
 	0%,30%{ margin: 0 15px; }
 	70%,100%{ margin: 0 5px; }
 }
+
 @keyframes letter {
 	0%,30%{ width: 27px; }
 	70%,100%{ width: 30vw; }
 }
-
 
 .containerFooter{
   position: absolute;
