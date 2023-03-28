@@ -413,19 +413,19 @@ h2{
   right: 100px;
 }
 
-#gitHub:hover {
+#gitHub:hover,
+#koalaCalendar:hover,
+#mailLink:hover {
   transform: rotate(0.5turn);
 }
 
-.emailContainer {
-  background-color: white;
-  width: 100%;
-  height: 50px;
-}
 
-.emailContainer:hover{
-  transform: scaleY(0.9);
-  background-color: #f2ecf3b2;
+
+
+.contactLeft:hover{
+  transform: scaleY(1.2);
+  background-color: #f2ecf300;
+
 }
 
 a:-webkit-any-link {
@@ -438,35 +438,35 @@ a:-webkit-any-link {
 }
 
 .contactLeft {
-  display: flex;
-  justify-content: right;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex: 25%;
+  justify-content: center;
   z-index: 3;
-  position: absolute;
-  bottom: 5%;
-  left: 15%;
-  padding:20px;
-  background: rgba(186, 179, 179, 0.473);
+  position:relative;
+  background: rgba(206, 188, 188, 0.562);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11.5px);
   -webkit-backdrop-filter: blur(11.5px);
-  border: 1px solid rgba(186, 179, 179, 0.74);
-  height: 550px;
-  width: 385px;
+  border: 1px solid rgba(75, 69, 69, 0.74);
+  height: 20%;
+  width: 40%;
+  padding-bottom: 40px;
+  filter: drop-shadow(0 0 0.75rem rgba(10, 5, 5, 0.568));
+
+}
+
+.contactLeftButtons {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .containerSection2 {
+  width: 100%;
   display: flex;
-  width:80%;
-  justify-content: center;
-  padding: 10px 170px 70px 250px;
-  margin-top: 30px;
-  font-size: 20px;
-  flex-direction: column;
-  flex-shrink: 2;
+  flex-direction: row;
+
+  margin: 20px 40px 20px 40px;
+ 
 }
 
 .containerS2left {
@@ -479,28 +479,22 @@ a:-webkit-any-link {
   position: absolute;
   bottom: 10%;
   left: 10%;
+  filter: drop-shadow(0 0 0.75rem rgba(212, 205, 205, 0.288));
 }
 
 .containerS2right {
 width: 40%;
 font-size: 17px;
-margin-bottom: 50px;
-height: 300px;
-padding: 20px;
+height: 250px;
+padding: 40px;
 display: flex;
-justify-content: left;
-position: absolute;
-right: 15%;
-text-align: right ;
+justify-content: center;
+text-align: center ;
 font-family: 'Josefin Sans', sans-serif;
-font-weight: 90;
-}
-
-.contactRight {
-position: absolute;
-bottom: 20%;
-right: 5%;
-z-index: 2;
+border: 3px solid rgba(255, 255, 255, 0.753);
+border-radius: 90px;
+margin-right: 50px;
+filter: drop-shadow(0 0 0.75rem rgba(224, 171, 171, 0.568));
 }
 
 .main{
