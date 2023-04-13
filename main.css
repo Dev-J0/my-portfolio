@@ -474,9 +474,7 @@ filter: drop-shadow(0 0 0.75rem rgba(224, 171, 171, 0.568));
  margin: 0;
 justify-content: space-around;
 margin-top: 30px;
-
 }
-
 
 
 
@@ -495,7 +493,8 @@ margin-top: 30px;
 .skill13,
 .skill14,
 .skill15,
-.skill16 {
+.skill16,
+.skill22 {
   background: white;
   box-shadow: 0 0 0 0 rgb(3, 3, 3);
   animation: pulse-white 2s infinite;
@@ -504,9 +503,18 @@ margin-top: 30px;
   text-align: center;
   padding: 10px;
   margin: 20px;
-
-
 }
+#skill22 {
+  background: white;
+  box-shadow: 0 0 0 0 rgb(3, 3, 3);
+  animation: pulse-white 2s infinite;
+  border-radius: 5px;
+  color: rgb(165, 95, 107);
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
 
 @keyframes pulse-white {
   0% {
