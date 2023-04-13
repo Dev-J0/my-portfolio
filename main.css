@@ -451,18 +451,31 @@ a:-webkit-any-link {
 
 .containerS2right {
 width: 40%;
-font-size: 17px;
+font-size: 19px;
 height: 250px;
 padding: 40px;
 display: flex;
 justify-content: center;
 text-align: center ;
 font-family: 'Josefin Sans', sans-serif;
-border: 3px solid rgba(255, 255, 255, 0.753);
 border-radius: 90px;
-margin-right: 50px;
+margin-right: 110px;
+margin-bottom: 180px;
 filter: drop-shadow(0 0 0.75rem rgba(224, 171, 171, 0.568));
+font-weight: 500;
+letter-spacing: 5px;
+transition: 0.5s;
+
 }
+
+.containerS2right:hover {
+    color: rgb(197, 197, 197);
+    text-shadow: 0 0 5px #ddb2a0,
+                0 0 25px #3a3b3b,
+                0 0 50px #5b5c5c,
+                0 0 100px #be9b9b;
+  }
+  
 
 .skillsContainer,
 .softskills {
