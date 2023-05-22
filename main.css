@@ -141,7 +141,7 @@ link:visited {
 }
 
 .layout .s3 {
-  background: linear-gradient(#A2666F,#C4A77D) ;
+  background: linear-gradient(#A2666F,#183A37) ;
   z-index: 2;
   width: 100%;
   display: flex;
@@ -152,7 +152,7 @@ link:visited {
 }
 
 .layout .s4 {
-  background: linear-gradient(#C4A77D,#483D3F);
+  background: linear-gradient(#183A37,#A2666F);
   z-index: 2;
   max-height: 100vh;
   display: flex;
@@ -161,7 +161,7 @@ link:visited {
 }
 
 .layout .s5 {
-  background: linear-gradient(#483D3F, #A7A2A9);
+  background: linear-gradient(#A2666F,#183A37);
   max-height: 100vh;
 }
 
@@ -391,7 +391,7 @@ h2{
 
 .contactLeft:hover{
   transform: scaleY(1.2);
-  background-color: #f2ecf300;
+  background-color: #7bbda14d;
 
 }
 
@@ -408,7 +408,7 @@ a:-webkit-any-link {
   justify-content: center;
   z-index: 3;
   position:relative;
-  background: rgba(206, 188, 188, 0.562);
+  background: rgba(93, 128, 125, 0.562);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11.5px);
