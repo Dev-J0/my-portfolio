@@ -15,6 +15,10 @@
     transform: translateY(0px);
   }
 }
+@media only screen and (max-width: 600px) {
+  
+  }
+
 
 html {
   scrollbar-width: none;
@@ -176,7 +180,7 @@ link:visited {
   justify-content: space-evenly;
   flex-wrap: wrap-reverse;
   border-bottom: 2px solid #183A37;
-  
+
 }
 
 
@@ -192,15 +196,15 @@ link:visited {
 }
 
 .passions {
-  width: 40%;
-   
+width: 50%;
+max-height:100%;
 }
 
 .about {
-  width: 40%;
+    width: 100px;
+    height: 200px;
     font-size: 19px;
-    height: 250px;
-    padding: 40px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
@@ -214,6 +218,14 @@ link:visited {
     font-weight: 500;
     letter-spacing: 5px;
     transition: all 0.5s ease 0s;
+}
+
+.aboutRight{
+  padding-left: 80px;
+}
+
+.aboutLeft {
+ margin-right: 25px;
 }
 
 
@@ -511,7 +523,7 @@ a:-webkit-any-link {
 }
 
 .containerS2right {
-width: 40%;
+width: 55%;
 font-size: 19px;
 height: 250px;
 padding: 40px;
