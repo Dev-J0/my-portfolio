@@ -165,10 +165,11 @@ link:visited {
 .layout .s4 {
   background: linear-gradient(#183A37,#A2666F);
   z-index: 2;
-  max-height: 100vh;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap-reverse;
+
+  width: 100%;
+  height: 100%;
+ 
+
   border-bottom: 2px solid #A2666F;
 }
 
@@ -677,6 +678,50 @@ margin-top: 30px;
   right: 50%;
   color: white;
 }
+
+
+
+gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+  z-index: 3;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+
+.item:hover {
+  flex: 7;
+}
+
+.item-1 {
+  background-image: url("./Capture\ d’écran\ \(95\).png").png;
+}
+
+.item-2 {
+  background-image: url("./Capture\ d’écran\ \(96\).png");
+}
+
+.item-3 {
+  background-image: url("./Capture\ d’écran\ \(55\).png");
+}
+
+.item-4 {
+  background-image: url("./Capture\ d’écran\ \(43\).png");
+}
+
+.item-5 {
+  background-image: url("./Capture\ d’écran\ \(44\).png");
+}
+
 
 
 
